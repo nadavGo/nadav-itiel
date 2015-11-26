@@ -1,6 +1,0 @@
-framework module CasieSDK {
-  umbrella header "CasieSDK.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4F840BD1C073DC1008D925B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F840BC1C073DC1008D925B /* main.m */; };
+		E4F840C01C073DC1008D925B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F840BF1C073DC1008D925B /* AppDelegate.m */; };
+		E4F840C31C073DC1008D925B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F840C21C073DC1008D925B /* ViewController.m */; };
+		E4F840C61C073DC1008D925B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F840C41C073DC1008D925B /* Main.storyboard */; };
+		E4F840C81C073DC1008D925B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F840C71C073DC1008D925B /* Assets.xcassets */; };
+		E4F840CB1C073DC1008D925B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F840C91C073DC1008D925B /* LaunchScreen.storyboard */; };
+		E4F840D61C073DC1008D925B /* CasieTaggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F840D51C073DC1008D925B /* CasieTaggerTests.m */; };
+		E4F840E11C073DC1008D925B /* CasieTaggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F840E01C073DC1008D925B /* CasieTaggerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4F840D21C073DC1008D925B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F840B01C073DC1008D925B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F840B71C073DC1008D925B;
+			remoteInfo = CasieTagger;
+		};
+		E4F840DD1C073DC1008D925B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F840B01C073DC1008D925B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F840B71C073DC1008D925B;
+			remoteInfo = CasieTagger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4F840B81C073DC1008D925B /* CasieTagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasieTagger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F840BC1C073DC1008D925B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4F840BE1C073DC1008D925B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4F840BF1C073DC1008D925B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4F840C11C073DC1008D925B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4F840C21C073DC1008D925B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4F840C51C073DC1008D925B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4F840C71C073DC1008D925B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F840CA1C073DC1008D925B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4F840CC1C073DC1008D925B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F840D11C073DC1008D925B /* CasieTaggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasieTaggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F840D51C073DC1008D925B /* CasieTaggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasieTaggerTests.m; sourceTree = "<group>"; };
+		E4F840D71C073DC1008D925B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F840DC1C073DC1008D925B /* CasieTaggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasieTaggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F840E01C073DC1008D925B /* CasieTaggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasieTaggerUITests.m; sourceTree = "<group>"; };
+		E4F840E21C073DC1008D925B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4F840B51C073DC1008D925B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F840CE1C073DC1008D925B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F840D91C073DC1008D925B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4F840AF1C073DC1008D925B = {
+			isa = PBXGroup;
+			children = (
+				E4F840BA1C073DC1008D925B /* CasieTagger */,
+				E4F840D41C073DC1008D925B /* CasieTaggerTests */,
+				E4F840DF1C073DC1008D925B /* CasieTaggerUITests */,
+				E4F840B91C073DC1008D925B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4F840B91C073DC1008D925B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F840B81C073DC1008D925B /* CasieTagger.app */,
+				E4F840D11C073DC1008D925B /* CasieTaggerTests.xctest */,
+				E4F840DC1C073DC1008D925B /* CasieTaggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F840BA1C073DC1008D925B /* CasieTagger */ = {
+			isa = PBXGroup;
+			children = (
+				E4F840BE1C073DC1008D925B /* AppDelegate.h */,
+				E4F840BF1C073DC1008D925B /* AppDelegate.m */,
+				E4F840C11C073DC1008D925B /* ViewController.h */,
+				E4F840C21C073DC1008D925B /* ViewController.m */,
+				E4F840C41C073DC1008D925B /* Main.storyboard */,
+				E4F840C71C073DC1008D925B /* Assets.xcassets */,
+				E4F840C91C073DC1008D925B /* LaunchScreen.storyboard */,
+				E4F840CC1C073DC1008D925B /* Info.plist */,
+				E4F840BB1C073DC1008D925B /* Supporting Files */,
+			);
+			path = CasieTagger;
+			sourceTree = "<group>";
+		};
+		E4F840BB1C073DC1008D925B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4F840BC1C073DC1008D925B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4F840D41C073DC1008D925B /* CasieTaggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4F840D51C073DC1008D925B /* CasieTaggerTests.m */,
+				E4F840D71C073DC1008D925B /* Info.plist */,
+			);
+			path = CasieTaggerTests;
+			sourceTree = "<group>";
+		};
+		E4F840DF1C073DC1008D925B /* CasieTaggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4F840E01C073DC1008D925B /* CasieTaggerUITests.m */,
+				E4F840E21C073DC1008D925B /* Info.plist */,
+			);
+			path = CasieTaggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4F840B71C073DC1008D925B /* CasieTagger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F840E51C073DC1008D925B /* Build configuration list for PBXNativeTarget "CasieTagger" */;
+			buildPhases = (
+				E4F840B41C073DC1008D925B /* Sources */,
+				E4F840B51C073DC1008D925B /* Frameworks */,
+				E4F840B61C073DC1008D925B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CasieTagger;
+			productName = CasieTagger;
+			productReference = E4F840B81C073DC1008D925B /* CasieTagger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4F840D01C073DC1008D925B /* CasieTaggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F840E81C073DC1008D925B /* Build configuration list for PBXNativeTarget "CasieTaggerTests" */;
+			buildPhases = (
+				E4F840CD1C073DC1008D925B /* Sources */,
+				E4F840CE1C073DC1008D925B /* Frameworks */,
+				E4F840CF1C073DC1008D925B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4F840D31C073DC1008D925B /* PBXTargetDependency */,
+			);
+			name = CasieTaggerTests;
+			productName = CasieTaggerTests;
+			productReference = E4F840D11C073DC1008D925B /* CasieTaggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4F840DB1C073DC1008D925B /* CasieTaggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F840EB1C073DC1008D925B /* Build configuration list for PBXNativeTarget "CasieTaggerUITests" */;
+			buildPhases = (
+				E4F840D81C073DC1008D925B /* Sources */,
+				E4F840D91C073DC1008D925B /* Frameworks */,
+				E4F840DA1C073DC1008D925B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4F840DE1C073DC1008D925B /* PBXTargetDependency */,
+			);
+			name = CasieTaggerUITests;
+			productName = CasieTaggerUITests;
+			productReference = E4F840DC1C073DC1008D925B /* CasieTaggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4F840B01C073DC1008D925B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = orcam;
+				TargetAttributes = {
+					E4F840B71C073DC1008D925B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E4F840D01C073DC1008D925B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E4F840B71C073DC1008D925B;
+					};
+					E4F840DB1C073DC1008D925B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E4F840B71C073DC1008D925B;
+					};
+				};
+			};
+			buildConfigurationList = E4F840B31C073DC1008D925B /* Build configuration list for PBXProject "CasieTagger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4F840AF1C073DC1008D925B;
+			productRefGroup = E4F840B91C073DC1008D925B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4F840B71C073DC1008D925B /* CasieTagger */,
+				E4F840D01C073DC1008D925B /* CasieTaggerTests */,
+				E4F840DB1C073DC1008D925B /* CasieTaggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4F840B61C073DC1008D925B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F840CB1C073DC1008D925B /* LaunchScreen.storyboard in Resources */,
+				E4F840C81C073DC1008D925B /* Assets.xcassets in Resources */,
+				E4F840C61C073DC1008D925B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F840CF1C073DC1008D925B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F840DA1C073DC1008D925B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4F840B41C073DC1008D925B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F840C31C073DC1008D925B /* ViewController.m in Sources */,
+				E4F840C01C073DC1008D925B /* AppDelegate.m in Sources */,
+				E4F840BD1C073DC1008D925B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F840CD1C073DC1008D925B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F840D61C073DC1008D925B /* CasieTaggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F840D81C073DC1008D925B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F840E11C073DC1008D925B /* CasieTaggerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4F840D31C073DC1008D925B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4F840B71C073DC1008D925B /* CasieTagger */;
+			targetProxy = E4F840D21C073DC1008D925B /* PBXContainerItemProxy */;
+		};
+		E4F840DE1C073DC1008D925B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4F840B71C073DC1008D925B /* CasieTagger */;
+			targetProxy = E4F840DD1C073DC1008D925B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4F840C41C073DC1008D925B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F840C51C073DC1008D925B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4F840C91C073DC1008D925B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F840CA1C073DC1008D925B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4F840E31C073DC1008D925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4F840E41C073DC1008D925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F840E61C073DC1008D925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CasieTagger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orcam.CasieTagger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4F840E71C073DC1008D925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CasieTagger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orcam.CasieTagger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4F840E91C073DC1008D925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CasieTaggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orcam.CasieTaggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasieTagger.app/CasieTagger";
+			};
+			name = Debug;
+		};
+		E4F840EA1C073DC1008D925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CasieTaggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orcam.CasieTaggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasieTagger.app/CasieTagger";
+			};
+			name = Release;
+		};
+		E4F840EC1C073DC1008D925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CasieTaggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orcam.CasieTaggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CasieTagger;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E4F840ED1C073DC1008D925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CasieTaggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orcam.CasieTaggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CasieTagger;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4F840B31C073DC1008D925B /* Build configuration list for PBXProject "CasieTagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F840E31C073DC1008D925B /* Debug */,
+				E4F840E41C073DC1008D925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F840E51C073DC1008D925B /* Build configuration list for PBXNativeTarget "CasieTagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F840E61C073DC1008D925B /* Debug */,
+				E4F840E71C073DC1008D925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4F840E81C073DC1008D925B /* Build configuration list for PBXNativeTarget "CasieTaggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F840E91C073DC1008D925B /* Debug */,
+				E4F840EA1C073DC1008D925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4F840EB1C073DC1008D925B /* Build configuration list for PBXNativeTarget "CasieTaggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F840EC1C073DC1008D925B /* Debug */,
+				E4F840ED1C073DC1008D925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4F840B01C073DC1008D925B /* Project object */;
+}
